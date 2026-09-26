@@ -17,7 +17,8 @@ const out = join(ROOT, 'dist', 'macos');
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
 const tar = process.platform === 'win32' ? join(process.env.SystemRoot || 'C:\\Windows', 'System32', 'tar.exe') : 'tar';
-execFileSync(tar, ['-x', '-f', '-', '-C', out], { input: git('archive', '--format=tar', 'FETCH_HEAD') });
+// autocrlf off: git archive would otherwise give the text files Windows line endings
+execFileSync(tar, ['-x', '-f', '-', '-C', out], { input: git('-c', 'core.autocrlf=false', 'archive', '--format=tar', 'FETCH_HEAD') });
 
 console.log('dist/macos/');
 for (const f of readdirSync(out)) console.log(`  ${f}`);
