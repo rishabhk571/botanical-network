@@ -1,0 +1,33 @@
+name,station,gate,lat,lon,tags,notes,query
+Kalibari Mandir,RK Ashram Marg,2,28.6342,77.1996,"temple,mandir marg",Mandir Marg cluster with Birla Mandir and NP Boys School,
+NP Boys Senior Secondary School,RK Ashram Marg,2,28.6358,77.2002,"heritage,mandir marg",Mandir Marg cluster,
+Birla Mandir,RK Ashram Marg,2,28.6327,77.1992,"temple,mandir marg",Laxminarayan Temple; Mandir Marg cluster,
+Rashtrapati Bhavan,Central Secretariat,4,,,"heritage,lutyens",Book the museum/gardens slot online in advance,"Rashtrapati Bhavan, New Delhi"
+Talkatora Garden,Patel Chowk,1,,,"park,lutyens",Mughal-era garden behind the stadium,"Talkatora Garden, New Delhi"
+Malcha Mahal,Lok Kalyan Marg,2,,,"heritage,ridge",Tughlaq hunting lodge in the Central Ridge; go in daylight with company,"Malcha Mahal, Delhi"
+Bhuli Bhatiyari Ka Mahal,Jhandewalan,2,28.6399,77.1976,"heritage,ridge",Tughlaq hunting lodge on the Central Ridge near Karol Bagh,
+Mutiny Memorial,Kashmere Gate,7,,,"heritage,northern ridge",Ajitgarh; Northern Ridge walk with Ashoka Pillar and Pir Ghaib,"Mutiny Memorial, Delhi"
+Ashoka Pillar,Vishwavidyalaya,3,28.6758,77.2118,"heritage,northern ridge",Northern Ridge walk; next to Hindu Rao Hospital,
+Pir Ghaib,Civil Lines,2,,,"heritage,northern ridge",Inside the Hindu Rao Hospital campus; Northern Ridge walk,"Pir Ghaib, Delhi"
+Chauburji Mosque,Civil Lines,2,,,"heritage,northern ridge",Northern Ridge walk,"Chauburji Mosque, Delhi"
+Northern Guard House,Vishwavidyalaya,3,28.6855,77.2110,"heritage,northern ridge",Northern Ridge walk near Flag Staff Tower (position approximate),
+Hindu Rao Hospital,Pratap Nagar,1,,,"heritage,northern ridge",Hindu Rao's mansion; Northern Ridge walk,"Hindu Rao Hospital, Delhi"
+Baoli,Civil Lines,2,28.6761,77.2100,"heritage,northern ridge",Stepwell on the Kamla Nehru Ridge near Pir Ghaib (position approximate),
+Flag Staff Tower,Vishwavidyalaya,3,,,"heritage,northern ridge",Northern Ridge walk,"Flagstaff Tower, Delhi"
+Lal Kot Baoli,Qutab Minar,2,,,"heritage,mehrauli",Inside Sanjay Van; Mehrauli cluster,"Lal Kot, Delhi"
+Tomb of Balban,Qutab Minar,2,,,"heritage,mehrauli",Mehrauli Archaeological Park,"Tomb of Balban, Mehrauli, Delhi"
+Jahaz Mahal,Qutab Minar,2,,,"heritage,mehrauli",By Hauz-i-Shamsi; Mehrauli cluster,"Jahaz Mahal, Mehrauli, Delhi"
+Qila Rai Pithora,Malviya Nagar,2,,,"heritage,mehrauli",Rampart remains near Press Enclave Marg,"Qila Rai Pithora, Delhi"
+Neela Hauz Biodiversity Park,Qutab Minar,2,28.5343,77.1810,"park,nature",Lake and wetland off Aruna Asaf Ali Marg,
+Quli Khan's Tomb,Qutab Minar,2,28.5232,77.1872,"heritage,mehrauli",Mehrauli Archaeological Park,
+Sultan Garhi,Chhatarpur,2,28.5140,77.1461,"heritage",Oldest Islamic tomb in Delhi; Vasant Kunj side (position approximate),
+Tughlaqabad Fort,Tughlakabad,1,,,"heritage,tughlaqabad",Tughlaqabad cluster with Adilabad and the tomb,"Tughlaqabad Fort, Delhi"
+Nai Ka Kot,Tughlakabad,1,,,"heritage,tughlaqabad",Ruined outwork south of Adilabad,"Nai ka Kot, Delhi"
+Asola Bhatti Wildlife Sanctuary,Tughlakabad,1,,,"park,nature",Guided walks from the Asola gate; check timings,"Asola Bhatti Wildlife Sanctuary, Delhi"
+Tilpath Valley Biodiversity Park,Saket,2,,,"park,nature",Near Sainik Farm; mornings are best,"Tilpath Valley Biodiversity Park, Delhi"
+Metcalfe Folly,Qutab Minar,2,28.5235,77.1908,"heritage,mehrauli",Dilkusha and the folly on the hill; Mehrauli cluster,
+Tomb of Ghiyasuddin Tughlaq,Tughlakabad,1,28.5111,77.2606,"heritage,tughlaqabad",Across the causeway from the fort,
+Rajon Ki Baoli,Qutab Minar,2,,,"heritage,mehrauli",Mehrauli Archaeological Park,"Rajon ki Baoli, Delhi"
+Jamali Kamali Mosque & Tomb,Qutab Minar,2,,,"heritage,mehrauli",Mehrauli Archaeological Park,"Jamali Kamali, Delhi"
+Azim Khan Tomb,Qutab Minar,2,28.5214,77.1935,"heritage,mehrauli",Hilltop tomb near Ahinsa Sthal,
+Adilabad Fort,Tughlakabad,1,,,"heritage,tughlaqabad",Tughlaqabad cluster,"Adilabad Fort, Delhi"

@@ -1,0 +1,38 @@
+Botanical Network 0.1.0 for Mac  -  Delhi Metro map with your saved places
+==========================================================================
+
+WHAT IS IN THIS FOLDER
+
+  Botanical Network_0.1.0_universal.dmg   the app, for Apple Silicon and Intel
+                                          Macs.
+  places/delhi-all-places.json            every place from the sender's own map,
+                                          with exit gates and categories. Drop
+                                          this one file onto the map first.
+  places/                                 the smaller lists it was built from,
+                                          plus a tiny sample file.
+
+INSTALL
+
+  1. Double-click the .dmg and drag Botanical Network into Applications.
+  2. The app is not notarised by Apple, so macOS blocks the first launch
+     ("Apple could not verify..."). Click Done, then open System Settings >
+     Privacy & Security, scroll down and click "Open Anyway" next to
+     Botanical Network. This only happens once.
+     On macOS 14 or earlier you can instead Control-click the app in
+     Applications and choose Open.
+
+FIRST RUN
+
+  - Drop places/delhi-all-places.json onto the map, or press "Import places..."
+    and pick it. A checklist shows what came in. (Importing the smaller lists
+    afterwards just reports those places as "already exists".)
+  - Hover a station to see the places saved there; click "Start here" on one
+    station and "End here" on another to plan a journey.
+  - Press the "i" button next to Import to copy a prompt you can paste into
+    any AI chat with your own list of places; save its reply as a .json file
+    and import it.
+  - Your places are stored in
+    ~/Library/Application Support/com.botanicalnetwork.desktop.
+    "Export..." writes them to a file you can send to someone else.
+
+Runs on macOS 11 (Big Sur) or later.

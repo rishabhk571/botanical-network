@@ -1,0 +1,9 @@
+node_modules/
+src-tauri/target/
+src-tauri/gen/
+dist/
+tools/layout/anchors.auto.json
+*.log
+.claude/settings.local.json
+.DS_Store
+Thumbs.db

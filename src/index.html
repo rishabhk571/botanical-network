@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Botanical Network</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" class="zoom-far">
+
+  <aside id="sidebar" aria-label="Sidebar">
+    <button id="sidebarToggle" type="button" title="Open / close the panel (Tab)" aria-label="Toggle panel">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="chev" d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <div class="sidebar-inner">
+      <header class="brand">
+        <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+          <circle cx="16" cy="19" r="8" fill="none" stroke="#7E9B8C" stroke-width="2.2"/>
+          <path d="M16 11c-4-4-3-9 2-10 4 1 4 6-2 10z" fill="#C87A65"/>
+        </svg>
+        <div>
+          <h1>Botanical Network</h1>
+          <small>Delhi Metro · network as of Aug 2026</small>
+        </div>
+      </header>
+
+      <section class="block">
+        <div class="search-wrap">
+          <input id="search" type="search" placeholder="Find a station or a saved place…" autocomplete="off" spellcheck="false">
+          <ul id="searchResults" class="results" hidden></ul>
+        </div>
+      </section>
+
+      <section class="block" id="journeyBlock">
+        <h2>Journey</h2>
+        <div class="route-fields">
+          <button type="button" class="chip endpoint empty" id="routeFrom" title="Click a station on the map, then choose Start">Start · click a station</button>
+          <button type="button" class="icon-btn" id="routeSwap" title="Swap start and end">⇅</button>
+          <button type="button" class="chip endpoint empty" id="routeTo" title="Click a station on the map, then choose End">End · click a station</button>
+        </div>
+        <ul id="routeStops" class="stops"></ul>
+        <div id="routeOptions" class="opts"></div>
+        <p id="routeNote" class="hint">Pick a start and an end station. Saved places along the way will pulse.</p>
+        <ul id="journeyList" class="journeys"></ul>
+        <p class="hint" id="journeyHint">Plan a route you take often and save it to reload it in one click.</p>
+      </section>
+
+      <section class="block">
+        <h2>Saved places <span class="count" id="placesCount">0</span></h2>
+        <div class="filters" id="placeFilters">
+          <button type="button" class="filter sel" data-f="all">All</button>
+          <button type="button" class="filter" data-f="route">On route</button>
+          <button type="button" class="filter" data-f="next">Next up</button>
+          <button type="button" class="filter" data-f="scheduled">Scheduled</button>
+          <button type="button" class="filter" data-f="visited">Visited</button>
+        </div>
+        <div class="filters cats" id="catFilters" title="Filter by category; the map shows that category's icon at its stations">
+          <button type="button" class="filter sel" data-c="all">All types</button>
+          <button type="button" class="filter" data-c="worship" title="Worship"><svg class="ico c-worship" viewBox="0 0 24 24"><use href="#ic-worship"/></svg></button>
+          <button type="button" class="filter" data-c="food" title="Food"><svg class="ico c-food" viewBox="0 0 24 24"><use href="#ic-food"/></svg></button>
+          <button type="button" class="filter" data-c="sights" title="Sights"><svg class="ico c-sights" viewBox="0 0 24 24"><use href="#ic-sights"/></svg></button>
+          <button type="button" class="filter" data-c="monument" title="Monuments"><svg class="ico c-monument" viewBox="0 0 24 24"><use href="#ic-monument"/></svg></button>
+          <button type="button" class="filter" data-c="nature" title="Nature"><svg class="ico c-nature" viewBox="0 0 24 24"><use href="#ic-nature"/></svg></button>
+          <button type="button" class="filter" data-c="culture" title="Culture: museums, galleries, libraries, theatres"><svg class="ico c-culture" viewBox="0 0 24 24"><use href="#ic-culture"/></svg></button>
+          <button type="button" class="filter" data-c="activity" title="Activities: escape rooms, games, sports, workshops"><svg class="ico c-activity" viewBox="0 0 24 24"><use href="#ic-activity"/></svg></button>
+          <button type="button" class="filter" data-c="shopping" title="Shopping"><svg class="ico c-shopping" viewBox="0 0 24 24"><use href="#ic-shopping"/></svg></button>
+          <button type="button" class="filter" data-c="other" title="Other"><svg class="ico c-other" viewBox="0 0 24 24"><use href="#ic-other"/></svg></button>
+        </div>
+        <ul id="placesList" class="places"></ul>
+        <p class="hint" id="placesHint">Drop a places file onto the map, or use Import below.</p>
+      </section>
+
+      <section class="block">
+        <h2>Time capsule</h2>
+        <ul id="upcomingList" class="upcoming"></ul>
+        <p class="hint" id="upcomingHint">Nothing scheduled yet. Open a place and pick a day.</p>
+      </section>
+
+      <section class="block io">
+        <button type="button" class="btn" id="importBtn">Import places…</button>
+        <button type="button" class="btn ghost" id="exportBtn">Export…</button>
+        <button type="button" class="icon-btn info" id="helpBtn" title="How to make a places file" aria-label="How to make a places file">i</button>
+        <input type="file" id="fileInput" accept=".json,.csv,.txt,.tsv" multiple hidden>
+      </section>
+
+      <section class="block settings">
+        <h2>Settings</h2>
+        <label class="toggle"><span>Map style</span>
+          <select id="setStyle">
+            <option value="schematic">Schematic</option>
+            <option value="geo">Geographic</option>
+          </select>
+        </label>
+        <label class="toggle"><input type="checkbox" id="setLite"> <span>Lite mode <small>no blur, no animation</small></span></label>
+        <label class="toggle"><input type="checkbox" id="setHints"> <span>Colour hints <small>tint lines by official colour</small></span></label>
+        <label class="toggle"><input type="checkbox" id="setRegional"> <span>Regional rail <small>Namo Bharat &amp; Meerut Metro</small></span></label>
+        <label class="toggle"><span>Labels</span>
+          <select id="setLabels">
+            <option value="auto">Bloom with zoom</option>
+            <option value="all">Always</option>
+            <option value="off">Hidden</option>
+          </select>
+        </label>
+        <p class="hint" id="storageHint"></p>
+      </section>
+    </div>
+    <!-- pinned journey actions: always reachable, never part of the scroll -->
+    <div class="sidebar-actions" id="journeyBar" hidden>
+      <div class="row">
+        <button type="button" class="btn ghost" id="routeClear">Clear journey</button>
+        <button type="button" class="btn" id="routeSave" disabled>Save journey</button>
+      </div>
+      <form id="journeyForm" class="jform" hidden>
+        <input id="journeyName" type="text" maxlength="60" placeholder="Name this journey" autocomplete="off">
+        <button type="submit" class="btn tiny">Save</button>
+        <button type="button" class="btn tiny ghost" id="journeyCancel">Cancel</button>
+      </form>
+    </div>
+  </aside>
+
+  <main id="mapWrap">
+    <div id="mapLayer">
+    <svg id="map" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Delhi Metro map">
+      <defs>
+        <!-- category icons: 24x24 line glyphs, coloured through currentColor -->
+        <symbol id="ic-worship" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16M6 21v-8h12v8M5 13a7 7 0 0 1 14 0M12 6V3M10 4h4"/></g></symbol>
+        <symbol id="ic-food" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v18M5 3v5a2 2 0 0 0 4 0V3M17 3c-2 0-3 3-3 6v3h3v9"/></g></symbol>
+        <symbol id="ic-sights" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></g></symbol>
+        <symbol id="ic-monument" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V10a8 8 0 0 1 16 0v11M3 21h18M9 21v-6a3 3 0 0 1 6 0v6"/></g></symbol>
+        <symbol id="ic-nature" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-4M7 17l2.5-4H7.5L10 9H9l3-6 3 6h-1l2.5 4H15l2.5 4z"/></g></symbol>
+        <symbol id="ic-culture" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7a3 3 0 0 0-3-3H3v14h6a3 3 0 0 1 3 3M12 7a3 3 0 0 1 3-3h6v14h-6a3 3 0 0 0-3 3M12 7v14"/></g></symbol>
+        <symbol id="ic-activity" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18v3.5a1.5 1.5 0 0 0 0 3V17H3v-3.5a1.5 1.5 0 0 0 0-3z"/><path d="M14 8.5v1M14 11.5v1M14 14.5v1"/></g></symbol>
+        <symbol id="ic-shopping" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l1 13H5zM9 8V6a3 3 0 0 1 6 0v2"/></g></symbol>
+        <symbol id="ic-other" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2"/></g></symbol>
+      </defs>
+      <g id="viewport">
+        <g id="gLines"></g>
+        <g id="gLinks"></g>
+        <g id="gRoute"></g>
+        <g id="gStations"></g>
+        <g id="gLabels"></g>
+        <g id="gPlaces"></g>
+      </g>
+    </svg>
+    </div>
+
+    <div id="zoomControls">
+      <div class="zoom-slider" title="Zoom">
+        <input type="range" id="zoomRange" min="0" max="1000" step="1" value="0" aria-label="Zoom level">
+      </div>
+      <button type="button" id="zoomFit" title="Fit the network">⌂</button>
+    </div>
+
+    <div id="legend" class="muted">hover a station · click to plan · scroll, pinch or slide to zoom</div>
+
+    <div id="popover" class="popover" hidden></div>
+    <div id="dropOverlay" hidden><div class="drop-card">Drop your places file to let it bloom onto the map</div></div>
+    <div id="ripple"></div>
+    <div id="toast" hidden></div>
+  </main>
+
+  <div id="help" hidden>
+    <div class="pill help" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+      <div class="pill-head">
+        <div>
+          <h3 id="helpTitle">Making a places file</h3>
+          <div class="muted">Any AI chat can write it for you. Nothing to install.</div>
+        </div>
+        <button type="button" class="icon-btn" id="helpClose" title="Close (Esc)">✕</button>
+      </div>
+      <ol class="steps">
+        <li><b>Copy the prompt</b> below into an AI chat, then paste your list of places underneath. A name is enough; add the metro station and exit gate if you know them.</li>
+        <li><b>Save the reply</b> as a file ending in <code>.json</code>: copy the JSON block into Notepad and save it with UTF-8 encoding, or download it from the chat.</li>
+        <li><b>Import it</b> with the button here, or drop the file onto the map. A report lists every place that came in and the station it sits at; places you already have are left untouched and marked <i>already exists</i>.</li>
+      </ol>
+      <div class="help-prompt-head">
+        <span class="cap-label">Prompt</span>
+        <button type="button" class="btn tiny" id="helpCopy">Copy prompt</button>
+      </div>
+      <textarea id="helpPrompt" readonly spellcheck="false">You are preparing an import file for "Botanical Network", a Delhi Metro places app.
+I will give you a list of places in Delhi-NCR. For each one:
+
+1. Identify the place. If I give only a name, pick the nearest operational Delhi Metro
+   station (DMRC, Noida Aqua Line or Rapid Metro Gurugram). If I name a station, use
+   exactly the station I named.
+2. If I give a gate number, put it in "gate" as a plain number string.
+3. Add "lat" and "lon" (decimal degrees) only if you know the location to within a few
+   hundred metres; otherwise leave both out rather than guessing.
+4. Write a one-line "notes" tip: what it is, best time, what to try, whether to book.
+5. Set "category" to one of: worship, food, sights, monument, nature, culture, activity,
+   shopping, other. "culture" is museums, galleries, libraries, theatres and art districts;
+   "activity" is escape rooms, gaming, sports, cinemas and workshops; "sights" is for
+   viewpoints and landmarks that fit nowhere else.
+6. Add 1-3 short lowercase "tags".
+7. Remove duplicate lines. Keep each place name as I wrote it.
+
+Output ONLY one JSON code block in exactly this shape, nothing else:
+
+{
+  "format": "botanical-network/1",
+  "places": [
+    {
+      "name": "Rashtrapati Bhavan",
+      "station": "Central Secretariat",
+      "gate": "4",
+      "lat": 28.6144, "lon": 77.1996,
+      "category": "monument",
+      "tags": ["heritage", "lutyens"],
+      "notes": "Book the museum slot online in advance"
+    }
+  ]
+}
+
+Rules: "name" and "station" are required; everything else is optional. Use official
+DMRC station names; common forms are fine (RK Ashram Marg, Qutub Minar, INA, Huda City
+Centre). If you are unsure which station is nearest, choose one and say so in "notes".
+
+My list:
+</textarea>
+      <p class="hint">Fields the app understands: name, station, gate, lat, lon, category, tags, notes, source. Only name and station are needed; distances and categories are worked out on import. A CSV with the same column names works too.</p>
+    </div>
+  </div>
+
+  <div id="importReport" hidden>
+    <div class="pill report" role="alertdialog" aria-modal="true" aria-labelledby="irTitle">
+      <div class="pill-head">
+        <div>
+          <h3 id="irTitle">Import</h3>
+          <div class="muted" id="irSub"></div>
+        </div>
+        <button type="button" class="icon-btn" id="irClose" title="Close (Esc)">✕</button>
+      </div>
+      <div id="irBody" class="ir-body"></div>
+      <div class="pill-actions">
+        <button type="button" class="btn ghost" id="irCopy">Copy report</button>
+        <span class="spacer"></span>
+        <button type="button" class="btn" id="irOk">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" hidden>
+    <div class="pill" role="dialog" aria-modal="true" aria-labelledby="mName">
+      <div class="pill-head">
+        <div>
+          <h3 id="mName">Place</h3>
+          <div class="muted" id="mStation"></div>
+        </div>
+        <button type="button" class="icon-btn" id="mClose" title="Close (Esc)">✕</button>
+      </div>
+
+      <textarea id="mNotes" rows="2" placeholder="Your notes…"></textarea>
+      <div class="meta-row">
+        <label class="gate-row">Exit gate <input id="mGate" type="text" inputmode="numeric" placeholder="e.g. 2" maxlength="12"></label>
+        <label class="gate-row">Category
+          <select id="mCategory">
+            <option value="worship">Worship</option>
+            <option value="food">Food</option>
+            <option value="sights">Sights</option>
+            <option value="monument">Monument</option>
+            <option value="nature">Nature</option>
+            <option value="culture">Culture</option>
+            <option value="activity">Activity</option>
+            <option value="shopping">Shopping</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+      </div>
+      <div class="source-row" id="mSourceRow" hidden>
+        <span class="muted" id="mSource"></span>
+        <button type="button" class="btn tiny ghost" id="mCopy">Copy link</button>
+      </div>
+
+      <div class="status-row" id="mStatus">
+        <button type="button" class="status" data-s="saved">Saved</button>
+        <button type="button" class="status" data-s="next">Next up</button>
+        <button type="button" class="status" data-s="visited">Visited</button>
+      </div>
+
+      <div class="cap-label">When will you go?</div>
+      <div class="date-strip" id="mDates"></div>
+
+      <div class="time-row">
+        <div class="sky-icon" id="mSky">
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="#E0A458"/><g stroke="#E0A458" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></g></svg>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 15.3A9.5 9.5 0 0 1 15.5 3.5z" fill="#7E9B8C"/></svg>
+        </div>
+        <input type="range" class="time" id="mTime" min="300" max="1410" step="15" value="1080">
+        <div class="time-label" id="mTimeLabel">6:00 pm</div>
+      </div>
+
+      <div class="pill-actions">
+        <button type="button" class="btn ghost" id="mUnschedule">Clear day</button>
+        <button type="button" class="btn ghost danger" id="mRemove">Remove</button>
+        <span class="spacer"></span>
+        <button type="button" class="btn ghost" id="mAddStop" hidden>Add as stop</button>
+        <button type="button" class="btn" id="mSave">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="data/network.js"></script>
+<script src="data/layout.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

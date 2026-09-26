@@ -1,0 +1,143 @@
+{
+  "format": "botanical-network/1",
+  "generated": "2026-09-12",
+  "places": [
+    {
+      "id": "cafe-lota",
+      "name": "Cafe Lota",
+      "station": "indraprastha",
+      "notes": "Regional Indian at the Crafts Museum. Sabudana popcorn, palak patta chaat.",
+      "source": "https://www.instagram.com/cafelota/",
+      "tags": [
+        "cafe",
+        "food"
+      ],
+      "lat": 28.6136,
+      "lon": 77.2427,
+      "distanceM": 1024
+    },
+    {
+      "id": "hauz-khas-village",
+      "name": "Hauz Khas Village",
+      "station": "iit-delhi",
+      "notes": "Deer park + the fort ruins by the lake. Go before sunset.",
+      "source": "https://www.instagram.com/explore/tags/hauzkhasvillage/",
+      "tags": [
+        "walk",
+        "heritage"
+      ],
+      "lat": 28.5535,
+      "lon": 77.1926,
+      "distanceM": 746
+    },
+    {
+      "id": "lodhi-art-district",
+      "name": "Lodhi Art District",
+      "station": "jawaharlal-nehru-stadium",
+      "notes": "Open-air street art across the Lodhi Colony blocks.",
+      "source": "https://www.instagram.com/st_artindia/",
+      "tags": [
+        "art",
+        "walk"
+      ],
+      "lat": 28.5895,
+      "lon": 77.2262,
+      "distanceM": 756
+    },
+    {
+      "id": "champa-gali",
+      "name": "Champa Gali",
+      "station": "saket",
+      "notes": "Lane of cafes in Saidulajab. Try Jugmug Thela.",
+      "source": "https://www.instagram.com/jugmugthela/",
+      "tags": [
+        "cafe"
+      ],
+      "lat": 28.5236,
+      "lon": 77.1985,
+      "distanceM": 450
+    },
+    {
+      "id": "majnu-ka-tilla",
+      "name": "Majnu Ka Tilla",
+      "station": "soorghat",
+      "notes": "Tibetan colony. Laphing, butter tea, AMA cafe.",
+      "source": "https://www.instagram.com/explore/tags/majnukatilla/",
+      "tags": [
+        "food"
+      ],
+      "lat": 28.7003,
+      "lon": 77.2296,
+      "distanceM": 1124
+    },
+    {
+      "id": "sunder-nursery",
+      "name": "Sunder Nursery",
+      "station": "jawaharlal-nehru-stadium",
+      "notes": "Heritage park next to Humayun's Tomb. Picnic spot.",
+      "source": "https://www.instagram.com/sundernursery/",
+      "tags": [
+        "park"
+      ],
+      "lat": 28.5934,
+      "lon": 77.2438,
+      "distanceM": 1131
+    },
+    {
+      "id": "paranthe-wali-gali",
+      "name": "Paranthe Wali Gali",
+      "station": "chandni-chowk",
+      "notes": "Old Delhi parathas; combine with Jama Masjid.",
+      "source": "https://www.instagram.com/explore/tags/paranthewaligali/",
+      "tags": [
+        "food",
+        "heritage"
+      ],
+      "lat": 28.6562,
+      "lon": 77.2296,
+      "distanceM": 258
+    },
+    {
+      "id": "khan-market",
+      "name": "Khan Market",
+      "station": "khan-market",
+      "notes": "Bookshops (Bahrisons, Faqir Chand) and Big Chill.",
+      "source": "https://www.instagram.com/explore/tags/khanmarket/",
+      "tags": [
+        "shopping",
+        "cafe"
+      ],
+      "lat": 28.6003,
+      "lon": 77.227,
+      "distanceM": 302
+    },
+    {
+      "id": "dilli-haat",
+      "name": "Dilli Haat",
+      "station": "dilli-haat-ina",
+      "notes": "Craft bazaar + regional food stalls.",
+      "source": "https://www.instagram.com/explore/tags/dillihaat/",
+      "tags": [
+        "shopping",
+        "food"
+      ],
+      "lat": 28.5733,
+      "lon": 77.2098,
+      "distanceM": 147
+    },
+    {
+      "id": "yamuna-biodiversity-park",
+      "name": "Yamuna Biodiversity Park",
+      "station": "jharoda-majra",
+      "notes": "Wetlands and birding, best in winter mornings.",
+      "source": "https://www.instagram.com/explore/tags/yamunabiodiversitypark/",
+      "tags": [
+        "park",
+        "nature"
+      ],
+      "lat": 28.7266,
+      "lon": 77.218,
+      "distanceM": 461
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "namo-bharat",
+    "name": "Namo Bharat (Delhi - Meerut RRTS)",
+    "colour": "#F26522",
+    "group": "rrts",
+    "kind": "regional",
+    "headway": 15,
+    "stations": [
+      { "name": "Sarai Kale Khan", "lat": 28.589189, "lon": 77.258065 },
+      { "name": "New Ashok Nagar", "lat": 28.591321, "lon": 77.302521 },
+      { "name": "Anand Vihar", "lat": 28.647471, "lon": 77.316799 },
+      { "name": "Sahibabad", "lat": 28.674700, "lon": 77.362100, "approx": true },
+      { "name": "Ghaziabad", "lat": 28.672555, "lon": 77.413732 },
+      { "name": "Guldhar", "lat": 28.699543, "lon": 77.445750 },
+      { "name": "Duhai", "lat": 28.727017, "lon": 77.471407 },
+      { "name": "Duhai Depot", "lat": 28.742282, "lon": 77.467641 },
+      { "name": "Murad Nagar", "lat": 28.770382, "lon": 77.510704 },
+      { "name": "Modinagar South", "lat": 28.817729, "lon": 77.556741 },
+      { "name": "Modinagar North", "lat": 28.843488, "lon": 77.583196 },
+      { "name": "Meerut South", "lat": 28.904729, "lon": 77.632839 },
+      { "name": "Shatabdi Nagar", "lat": 28.947748, "lon": 77.673876 },
+      { "name": "Begumpul", "lat": 28.996738, "lon": 77.705602 },
+      { "name": "Modipuram", "lat": 29.072329, "lon": 77.708884 }
+    ]
+  },
+  {
+    "id": "meerut-metro",
+    "name": "Meerut Metro",
+    "colour": "#1FA3C9",
+    "group": "meerut",
+    "kind": "regional",
+    "headway": 10,
+    "stations": [
+      { "name": "Meerut South", "lat": 28.904729, "lon": 77.632839 },
+      { "name": "Partapur", "lat": 28.922018, "lon": 77.650585 },
+      { "name": "Rithani", "lat": 28.932038, "lon": 77.660548 },
+      { "name": "Shatabdi Nagar", "lat": 28.947748, "lon": 77.673876 },
+      { "name": "Brahmapuri", "lat": 28.960296, "lon": 77.684812 },
+      { "name": "Meerut Central", "lat": 28.972872, "lon": 77.690603 },
+      { "name": "Bhainsali", "lat": 28.988092, "lon": 77.700317 },
+      { "name": "Begumpul", "lat": 28.996738, "lon": 77.705602 },
+      { "name": "MES Colony", "lat": 29.015964, "lon": 77.704621 },
+      { "name": "Daurli", "lat": 29.040706, "lon": 77.706856 },
+      { "name": "Meerut North", "lat": 29.053349, "lon": 77.708017 },
+      { "name": "Modipuram", "lat": 29.072329, "lon": 77.708884 }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+# Builds the macOS app on GitHub's Macs: the project is developed on Windows,
+# and a Mac app can only be built on macOS. Every push to main that touches the
+# app rebuilds it; "Run workflow" on the Actions tab does the same by hand.
+#
+# The result is the share folder `npm run package` makes on a Mac (the .dmg,
+# READ ME FIRST.txt, places/ and a zip), force-pushed as the only commit on the
+# `mac-build` branch so any PC can fetch it with plain git: `npm run fetch:mac`.
+name: Build macOS app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'src-tauri/**'
+      - 'places/**'
+      - 'platforms/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/build-macos.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # to push the mac-build branch
+
+concurrency:
+  group: build-macos
+  cancel-in-progress: true
+
+jobs:
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin,x86_64-apple-darwin
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - run: npm ci
+      - run: npm run build:mac
+      - run: npm run package
+
+      - name: Publish dist/macos to the mac-build branch
+        working-directory: dist/macos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git init -q -b mac-build
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "macOS build of ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" mac-build

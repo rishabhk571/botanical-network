@@ -1,0 +1,27 @@
+[package]
+name = "botanical-network"
+version = "0.1.0"
+description = "Delhi Metro map with saved places, route planning and visit scheduling"
+authors = ["Botanical Network"]
+edition = "2021"
+
+[lib]
+name = "botanical_network_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Small, fast binary for low-end machines.
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true

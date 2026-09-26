@@ -1,0 +1,38 @@
+Botanical Network 0.1.0  -  Delhi Metro map with your saved places
+====================================================================
+
+WHAT IS IN THIS FOLDER
+
+  Botanical Network_0.1.0_x64-setup.exe   installer (recommended): installs for
+                                          your user only, adds a Start-menu entry
+                                          and an uninstaller. About 1 MB.
+  Botanical Network 0.1.0 portable.exe    the same app as a single file: run it
+                                          from anywhere, nothing to install.
+  places\delhi-all-places.json            every place from the sender's own map,
+                                          with exit gates and categories. Drop
+                                          this one file onto the map first.
+  places\                                 the smaller lists it was built from,
+                                          plus a tiny sample file.
+
+INSTALL
+
+  1. Double-click the installer (or the portable exe).
+  2. Windows may show "Windows protected your PC" because the app is not
+     code-signed. Click "More info", then "Run anyway". This only happens once.
+  3. The app needs Microsoft Edge WebView2, which Windows 10 and 11 already
+     have. If it is missing the installer downloads it (about 2 MB).
+
+FIRST RUN
+
+  - Drop places\delhi-all-places.json onto the map, or press "Import places..."
+    and pick it. A checklist shows what came in. (Importing the smaller lists
+    afterwards just reports those places as "already exists".)
+  - Hover a station to see the places saved there; click "Start here" on one
+    station and "End here" on another to plan a journey.
+  - Press the "i" button next to Import to copy a prompt you can paste into
+    any AI chat with your own list of places; save its reply as a .json file
+    and import it.
+  - Your places are stored per user in %APPDATA%\com.botanicalnetwork.app.
+    "Export..." writes them to a file you can send to someone else.
+
+Runs on Windows 10 / 11, 64-bit. Uses about 60 MB of memory.

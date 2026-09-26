@@ -1,0 +1,19 @@
+{
+  "name": "botanical-network",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Delhi Metro map with saved places, route planning and visit scheduling",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "build:portable": "tauri build --no-bundle",
+    "build:mac": "tauri build --target universal-apple-darwin",
+    "package": "node platforms/package.mjs",
+    "package:web": "node platforms/package.mjs web",
+    "fetch:mac": "node platforms/fetch-mac.mjs"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4"
+  }
+}

@@ -1,0 +1,5453 @@
+﻿{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-12T07:00:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "relation",
+  "id": 447209,
+  "members": [
+    {
+      "type": "node",
+      "ref": 6325711755,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613716,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613718,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613720,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613736,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613740,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613746,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613749,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613864,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613870,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613877,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613883,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613898,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613909,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613919,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613940,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6537317882,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257831,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257824,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257827,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257839,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 939091076,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257820,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 345234443,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772123,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 345234440,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772115,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772114,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772113,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772112,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772111,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249823630,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663798999,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 610886106,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347677816,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 913550169,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347685192,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347685176,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249823566,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249823558,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249823552,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249235048,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249823531,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249235042,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 249235041,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347688420,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347688434,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347688615,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347688730,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 347688731,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 610023998,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024000,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1192568770,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1192568768,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024005,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024003,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77004696,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024029,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1178258945,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77006076,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 43766190,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 695925443,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 52082767,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 914114472,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 164931219,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 31266154,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 893778027,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 188240586,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1001138452,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#4169E1",
+    "name": "Blue Line (Noida Electronic City â Dwarka Sector 21)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "operator:wikipedia": "en:Delhi Metro Rail Corporation",
+    "public_transport:version": "2",
+    "ref": "3",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q1029921"
+  }
+},
+{
+  "type": "relation",
+  "id": 447210,
+  "members": [
+    {
+      "type": "node",
+      "ref": 9945617506,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9945617504,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837147021,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 913486465,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663781793,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663781034,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663780748,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9944540105,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663777967,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663777956,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 561300694,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772099,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257862,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257842,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772097,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5453621429,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257818,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772108,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257800,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257797,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257805,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257793,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 7018301884,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257789,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772107,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257785,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 922910160,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 939284656,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257781,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257755,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 271335970,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 271335980,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 271335545,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772094,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 271335327,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 413317779,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 922909980,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 379815254,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1085403004,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 379815255,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77629948,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77629938,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77629950,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77629898,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77629917,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 52080429,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 79482957,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 660097244,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 660097247,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 343626950,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 154708919,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 78734045,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 899083188,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 899083189,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360422865,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FFDF00",
+    "name": "Yellow Line (Samaypur Badli â Millennium City Centre)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "network:wikipedia": "hi:à¤¦à¤¿à¤²à¥à¤²à¥ à¤®à¥à¤à¥à¤°à¥",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "operator:wikipedia": "en:Delhi Metro Rail Corporation",
+    "public_transport:version": "2",
+    "ref": "2",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q795156"
+  }
+},
+{
+  "type": "relation",
+  "id": 447214,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5777614209,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1988598418,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614216,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663765153,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 311963955,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614297,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663762151,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663761505,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663761428,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663761411,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 268381457,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 268381463,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 561316983,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614260,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614244,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614225,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614220,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614202,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663759674,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614183,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614174,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9631141565,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9631141566,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9631141567,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9631141568,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9631141569,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9631141570,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614041,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9631141572,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1490161625,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1512992805,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1512992804,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024037,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024044,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024043,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024042,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024041,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024039,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024038,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276611,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276610,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276609,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276608,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024035,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024034,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024033,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024032,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF4040",
+    "duration": "01:00",
+    "from": "Rithala",
+    "name": "Red Line (Rithala â Shaheed Sthal)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "network:wikipedia": "hi:à¤¦à¤¿à¤²à¥à¤²à¥ à¤®à¥à¤à¥à¤°à¥",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "operator:wikipedia": "en:Delhi Metro Rail Corporation",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "to": "Shaheed Sthal",
+    "type": "route",
+    "wikidata": "Q3278367"
+  }
+},
+{
+  "type": "relation",
+  "id": 2535795,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5737168028,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663794722,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663793972,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663793549,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663790306,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257854,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257855,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1924974147,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 695932026,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1187375098,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 188216913,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1178262035,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77006078,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1157845531,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1157845533,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 52082179,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#4169e1",
+    "name": "Blue Line (Yamuna Bank â Vaishali)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q1029921",
+    "wikipedia": "en:Blue Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 2535796,
+  "members": [
+    {
+      "type": "node",
+      "ref": 6547772098,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9635301963,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1886793206,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1489748193,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77852923,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687487447,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 689257909,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#008000",
+    "name": "Green Line (Kirti Nagar => Ashok Park Main)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "5",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q5602820",
+    "wikipedia": "en:Green Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 2535797,
+  "members": [
+    {
+      "type": "node",
+      "ref": 6547772100,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2722924227,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1988668281,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837165876,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3580369626,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2622338438,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1988668271,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1665772897,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 927873481,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562620239,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562620241,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562620806,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562620810,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 927873489,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1135153141,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772101,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 927873461,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 856302882,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562622101,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562622242,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1706019482,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562622248,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 562722447,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837194690,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837246578,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837246577,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837246580,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837246576,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837246579,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8575372986,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3284150025,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2837246581,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4335296791,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4678405308,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 188245893,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 44278167,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 454517223,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 191231985,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1180751064,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 364909767,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 435628938,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#553592",
+    "from": "Kashmere Gate",
+    "name": "Violet Line (Kashmere Gate â Raja Nahar Singh)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "network:wikipedia": "hi:à¤¦à¤¿à¤²à¥à¤²à¥ à¤®à¥à¤à¥à¤°à¥",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "operator:wikipedia": "en:Delhi Metro Rail Corporation",
+    "public_transport:version": "2",
+    "ref": "6",
+    "route": "subway",
+    "to": "Raja Nahar Singh",
+    "type": "route",
+    "wikidata": "Q3634451",
+    "wikipedia": "en:Violet Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 2535798,
+  "members": [
+    {
+      "type": "node",
+      "ref": 9240935054,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 940975616,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9914269805,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9938725205,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9938725206,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9938725207,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772096,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 604707728,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 80677193,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 103170729,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 79482955,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 79482956,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 188216912,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF8C00",
+    "from": "Dwarka Sector 25",
+    "name": "Airport Express Line (Dwarka Sector 25 â New Delhi Airport Express Terminal)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "AEx",
+    "route": "subway",
+    "to": "New Delhi Airport Express Terminal",
+    "type": "route",
+    "wikidata": "Q5253735",
+    "wikipedia": "en:Airport Express Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 3537978,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2579368852,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2579368841,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9138309313,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9172459623,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 251754097,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 563896854,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 696687015,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 753427929,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1219840308,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#838996",
+    "name": "Grey Line (Dwarka â Dhansa Bus Stand)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "9",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q47100305",
+    "wikipedia": "en:Grey Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 4481323,
+  "members": [
+    {
+      "type": "node",
+      "ref": 8064593912,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593909,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593908,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593906,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4789904280,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772095,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593904,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1988848864,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2511127144,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2533456421,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2533456422,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593903,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593905,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 483037276,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873598,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873597,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873602,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873601,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360422867,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873603,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873604,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873599,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873600,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 483037274,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "gray",
+    "name": "Rapid MetroRail Gurgaon: S55 â Sikandarpur",
+    "network": "Rapid Metro Gurgaon",
+    "network:wikidata": "Q7294170",
+    "operator": "Rapid Metro Gurgaon Ltd.",
+    "public_transport:version": "2",
+    "ref": "RMGL",
+    "route": "subway",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 7890002,
+  "members": [
+    {
+      "type": "node",
+      "ref": 8064593905,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593903,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2533456422,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2533456421,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2511127144,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1988848864,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593904,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772095,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4789904280,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593906,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593908,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593909,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 8064593912,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 483037274,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873600,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873599,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873604,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873603,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 360422867,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873601,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873602,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873597,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1148873598,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 483037276,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "gray",
+    "name": "Rapid MetroRail Gurgaon: Sikandarpur â S55",
+    "network": "Rapid Metro Gurgaon",
+    "network:wikidata": "Q7294170",
+    "operator": "Rapid Metro Gurgaon Ltd.",
+    "public_transport:version": "2",
+    "ref": "RMGL",
+    "route": "subway",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037666,
+  "members": [
+    {
+      "type": "node",
+      "ref": 915232317,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1886793206,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1665772918,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9635301970,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 600644865,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 600644828,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 600645512,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 610889203,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 941120352,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1787431976,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915473442,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915472875,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915474404,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915472696,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915473851,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5719817431,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3689250982,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3689250981,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5066137687,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5066137686,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3689250979,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3689250980,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 562646668,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1047831737,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1047831738,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 689257909,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183770589,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183770587,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 47108107,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#008000",
+    "from": "Inderlok",
+    "name": "Green Line (Inderlok => Brigadier Hoshiyar Singh)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "5",
+    "route": "subway",
+    "to": "Brigadier Hoshiyar Singh",
+    "type": "route",
+    "wikidata": "Q5602820",
+    "wikipedia": "en:Green Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037669,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5737167202,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737168005,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737168016,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737168024,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 7661805973,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737168034,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167995,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167992,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167978,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167960,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167949,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167941,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167932,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167717,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167711,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167703,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167695,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167688,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167679,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167671,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167663,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167649,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167642,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167640,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167628,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167627,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167621,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167211,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6539894853,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167209,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167205,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167195,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167185,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737168028,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 906780885,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 906772268,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 906780869,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1869899247,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 906772185,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915595467,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915595437,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915595446,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915595409,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 915595470,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4267878878,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4267878879,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4267878881,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4267878880,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4267878882,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6325711756,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1001138451,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1212227771,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 893778028,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707748,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707736,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 914114473,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707732,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 695925444,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707724,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707717,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1187375095,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 695932026,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1187375098,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1178262030,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1178262031,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 139071686,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 139071687,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 210933925,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 855461481,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1192568767,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1192568769,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 427589714,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 383657723,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#4169E1",
+    "name": "Blue Line (Dwarka Sector 21 â Noida Electronic City)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "3",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q1029921"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037670,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5777614000,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614015,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777614023,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613981,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613985,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613988,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 554257844,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 610024031,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1157845532,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1157845530,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024030,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1178262034,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 695932025,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 139071669,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1187375097,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 695938515,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#4169E1",
+    "name": "Blue Line (Vaishali â Yamuna Bank)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "4",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q1029921",
+    "wikipedia": "en:Blue Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037675,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5777600321,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9635301962,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9635301965,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 689257910,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022321,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1047831737,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022316,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1047831739,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#008000",
+    "name": "Green Line (Ashok Park Main => Kirti Nagar)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "5",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q5602820",
+    "wikipedia": "en:Green Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037687,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5777601335,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601324,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601317,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601311,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601308,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601303,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601298,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601291,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601289,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601286,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601259,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600352,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600351,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600349,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600347,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600345,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600344,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600341,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9635301969,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600327,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600321,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777600303,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 610022335,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183770586,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183770588,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 689257910,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022330,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#008000",
+    "from": "Brigadier Hoshiyar Singh",
+    "name": "Green Line (Brigadier Hoshiyar Singh => Inderlok)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "5",
+    "route": "subway",
+    "to": "Inderlok",
+    "type": "route",
+    "wikidata": "Q5602820",
+    "wikipedia": "en:Green Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037705,
+  "members": [
+    {
+      "type": "node",
+      "ref": 9546632109,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9546649924,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629565,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629574,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629577,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629582,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629588,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629591,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629596,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629599,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629611,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629619,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629635,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629650,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629832,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9546632102,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629785,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629803,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629811,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629833,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629235,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9546632101,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629559,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629829,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629158,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629164,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629169,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629177,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629183,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629192,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629197,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629203,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629211,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629220,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 610024716,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1180751063,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024718,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024714,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024713,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024711,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1147871208,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1036191758,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#553592",
+    "from": "Raja Nahar Singh",
+    "name": "Violet Line (Raja Nahar Singh â Kashmere Gate)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "network:wikipedia": "hi:à¤¦à¤¿à¤²à¥à¤²à¥ à¤®à¥à¤à¥à¤°à¥",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "operator:wikipedia": "en:Delhi Metro Rail Corporation",
+    "public_transport:version": "2",
+    "ref": "6",
+    "route": "subway",
+    "to": "Kashmere Gate",
+    "type": "route",
+    "wikidata": "Q3634451",
+    "wikipedia": "en:Violet Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037712,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5777602022,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601824,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601815,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601807,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601797,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602023,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601871,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 7018711117,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601856,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601843,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6179179026,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601903,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601896,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601886,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602034,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602018,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602013,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602010,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602008,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602007,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602002,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6539894852,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602033,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601996,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601993,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601989,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601978,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601967,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601954,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601952,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601951,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601942,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777601936,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777602026,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 3689331533,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9945617503,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9945617505,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 610022365,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 899083187,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 899083186,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022371,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022378,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022433,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 660097246,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 660097245,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022426,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022422,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022413,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022407,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022400,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022394,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022388,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610022383,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 364909768,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 321073007,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FFDF00",
+    "name": "Yellow Line (Millennium City Centre â Samaypur Badli)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "network:wikipedia": "hi:à¤¦à¤¿à¤²à¥à¤²à¥ à¤®à¥à¤à¥à¤°à¥",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "operator:wikipedia": "en:Delhi Metro Rail Corporation",
+    "public_transport:version": "2",
+    "ref": "2",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q795156"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037715,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5737167170,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737166761,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167172,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167174,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167158,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5737167168,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9240935053,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 604707698,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707701,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707705,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 727364283,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707710,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 604707713,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 696157493,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF8C00",
+    "from": "New Delhi Airport Express Terminal",
+    "name": "Airport Express Line (New Delhi Airport Express Terminal â Dwarka Sector 25)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "AEx",
+    "route": "subway",
+    "to": "Dwarka Sector 25",
+    "type": "route",
+    "wikidata": "Q5253735",
+    "wikipedia": "en:Airport Express Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8037718,
+  "members": [
+    {
+      "type": "node",
+      "ref": 9631141571,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278609,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278610,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278611,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278612,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278613,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278614,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278615,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278616,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278617,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278618,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278619,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278620,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278621,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278622,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278623,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 561316983,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 268381463,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 268381457,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663761411,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663761428,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663761505,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663762151,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278631,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 311963955,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 663765153,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278634,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1988598418,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6405278635,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 379891675,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 80799488,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 175774700,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 175774698,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276606,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276607,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276612,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1287276613,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 52077554,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 52077441,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 24690209,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 70214093,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77617195,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77617216,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77643468,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1512992803,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1512992802,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 77643455,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FF4040",
+    "from": "Shaheed Sthal",
+    "name": "Red Line (Shaheed Sthal â Rithala)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "network:wikipedia": "hi:à¤¦à¤¿à¤²à¥à¤²à¥ à¤®à¥à¤à¥à¤°à¥",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "operator:wikipedia": "en:Delhi Metro Rail Corporation",
+    "public_transport:version": "2",
+    "ref": "1",
+    "route": "subway",
+    "to": "Rithala",
+    "type": "route",
+    "wikidata": "Q3278367"
+  }
+},
+{
+  "type": "relation",
+  "id": 8051592,
+  "members": [
+    {
+      "type": "node",
+      "ref": 9172459619,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9172459617,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631612,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631610,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1219840307,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 992790902,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 992790903,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024783,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024780,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#838996",
+    "name": "Grey Line (Dhansa Bus Stand â Dwarka)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "9",
+    "route": "subway",
+    "type": "route",
+    "wikidata": "Q47100305",
+    "wikipedia": "en:Grey Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8241298,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2833971930,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833971929,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833971922,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833971918,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833971914,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833971906,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833971903,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833971901,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6049373299,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6049373300,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6049373301,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6049373302,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6049373345,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6049373346,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6049373347,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100473,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100472,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100471,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4676940460,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100470,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526623,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526616,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526634,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526638,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526619,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526642,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526656,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526696,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531915,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531922,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531928,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531935,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531944,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531954,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531964,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833526614,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2833531971,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100474,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13238880328,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489721,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489718,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489715,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489713,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489710,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489708,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489707,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489705,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 642636563,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476776,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476788,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476778,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476785,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1055611602,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 915112330,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 915112329,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 659570769,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 661827634,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 364896924,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 473617055,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 615615095,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279102625,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1284144252,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 570756009,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 583105623,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 897488854,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 897488855,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279102627,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 570756008,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279102623,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 364896925,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183769463,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 364876206,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181404060,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 364876211,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181440756,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 631249188,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 661827638,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183304781,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 364876209,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181394345,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181485297,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 538930434,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476784,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FC8EAC",
+    "from": "Shiv Vihar",
+    "name": "Pink Line (Shiv Vihar â Maujpur - Babarpur)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "7",
+    "route": "subway",
+    "to": "Maujpur - Babarpur",
+    "type": "route",
+    "wikidata": "Q19891094",
+    "wikipedia": "en:Pink Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8242437,
+  "members": [
+    {
+      "type": "node",
+      "ref": 13628489704,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489706,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489709,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489711,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489712,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489716,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489717,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628489719,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13238880327,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5961114535,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630054,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629845,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777629837,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630123,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630109,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630094,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630083,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630074,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630144,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630275,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631037,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630288,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630345,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630338,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630330,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630323,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100465,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100469,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100468,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630298,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100467,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6196100466,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630970,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630956,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630934,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630916,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630878,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630855,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630635,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630624,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630622,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630601,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630582,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630574,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630566,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630555,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777630350,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1184476783,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1339456774,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181485298,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181394346,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279102624,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1486693035,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 661827631,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1162457527,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181440755,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024722,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1181404061,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024723,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183769464,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024725,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024727,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024728,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024730,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 897488857,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 897488856,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024733,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024734,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1284144251,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024736,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 615615096,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024737,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024739,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183343998,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 659570768,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 915112328,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 915112331,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 642636562,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476779,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476785,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476778,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476788,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1184476775,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#FC8EAC",
+    "from": "Maujpur - Babarpur",
+    "name": "Pink Line (Maujpur - Babarpur â Shiv Vihar)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "7",
+    "route": "subway",
+    "to": "Mayur Vihar Pocket 1",
+    "type": "route",
+    "wikidata": "Q19891094",
+    "wikipedia": "en:Pink Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8385429,
+  "members": [
+    {
+      "type": "node",
+      "ref": 6547772122,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772121,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772120,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772119,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772118,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772117,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772116,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937948255,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772102,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2832938174,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937948268,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937948269,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772105,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772106,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2832938176,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772104,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6547772103,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937092491,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937092490,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937092489,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937092488,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937092487,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937092486,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2832938325,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 9937092485,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12478112132,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 563894916,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 563894915,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 563894914,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 563894913,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 563894912,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 563894911,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279029824,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 563894910,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 454514566,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 552413422,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 379883518,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 379883519,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279029822,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279029823,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1085021235,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 279029821,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1339456793,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#CC338B",
+    "from": "Botanical Garden",
+    "name": "Magenta Line (Botanical Garden â Krishna Park Extension)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "8",
+    "route": "subway",
+    "to": "Krishna Park Extension",
+    "type": "route",
+    "wikidata": "Q19893471",
+    "wikipedia": "en:Magenta Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 8385430,
+  "members": [
+    {
+      "type": "node",
+      "ref": 12478112133,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631164,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631155,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631052,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631046,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631170,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631192,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631205,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631244,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631236,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631234,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631229,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631224,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631222,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631218,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631214,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631212,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631557,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2832938180,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631561,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631562,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631563,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631564,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631565,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631566,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777631568,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1339456792,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024742,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1085021236,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024744,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024745,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024748,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024751,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024754,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024758,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024759,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024761,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024763,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024764,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024766,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024769,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024771,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610024772,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#CC338B",
+    "from": "Krishna Park Extension",
+    "name": "Magenta Line (Krishna Park Extension â Botanical Garden)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "8",
+    "route": "subway",
+    "to": "Botanical Garden",
+    "type": "route",
+    "wikidata": "Q19893471",
+    "wikipedia": "en:Magenta Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 9268568,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5777613712,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613710,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613706,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613702,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613688,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613685,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613662,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613652,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613645,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613636,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613630,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613624,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613618,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613604,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613593,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613583,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613567,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613556,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613345,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 5777613343,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914485,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1183338335,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1183338336,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1466105447,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1466105449,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 610023996,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1180683914,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1490163904,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "aqua",
+    "from": "Depot",
+    "name": "Aqua Line: Depot â Noida Sector 51",
+    "network": "Noida Metro",
+    "network:wikidata": "Q16909221",
+    "operator": "NMRC",
+    "public_transport:version": "2",
+    "ref": "Aqua Line",
+    "route": "subway",
+    "to": "Noida Sector 51",
+    "type": "route",
+    "wikidata": "Q41668068",
+    "wikipedia": "en:Aqua Line (Noida Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 9268569,
+  "members": [
+    {
+      "type": "node",
+      "ref": 10074914484,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4950923221,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914483,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914482,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914481,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914480,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914479,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914478,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914477,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914476,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914475,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914474,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914473,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914472,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914471,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 4849443433,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914470,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914469,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914468,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914467,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 10074914466,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 687733478,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733479,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733480,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733481,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733482,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733483,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733484,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733485,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1466105448,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1466105450,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733486,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733487,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733488,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733489,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733491,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733492,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733493,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733494,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 687733495,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 688068784,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "aqua",
+    "from": "Noida Sector 51",
+    "name": "Aqua Line: Noida Sector 51 â Depot",
+    "network": "Noida Metro",
+    "network:wikidata": "Q16909221",
+    "operator": "NMRC",
+    "public_transport:version": "2",
+    "ref": "Aqua Line",
+    "route": "subway",
+    "to": "Depot",
+    "type": "route",
+    "wikidata": "Q41668068",
+    "wikipedia": "en:Aqua Line (Noida Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 20300114,
+  "members": [
+    {
+      "type": "node",
+      "ref": 13628267998,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628268000,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472102,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472104,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472105,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472107,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 12390111350,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1339456794,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1486690683,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#CC338B",
+    "from": "Majlis Park",
+    "name": "Magenta Line (Majlis Park â Deepali Chowk)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "8",
+    "route": "subway",
+    "to": "Deepali Chowk",
+    "type": "route",
+    "wikidata": "Q19893471",
+    "wikipedia": "en:Magenta Line (Delhi Metro)"
+  }
+},
+{
+  "type": "relation",
+  "id": 20300115,
+  "members": [
+    {
+      "type": "node",
+      "ref": 5215706515,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472108,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472106,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472103,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628472101,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628267999,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 13628267997,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 1489746230,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 538930432,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "colour": "#CC338B",
+    "from": "Deepali Chowk",
+    "name": "Magenta Line (Deepali Chowk â Majlis Park)",
+    "network": "Delhi Metro",
+    "network:wikidata": "Q271195",
+    "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+    "operator": "Delhi Metro Rail Corporation Limited",
+    "operator:wikidata": "Q1029339",
+    "public_transport:version": "2",
+    "ref": "8",
+    "route": "subway",
+    "to": "Majlis Park",
+    "type": "route",
+    "wikidata": "Q19893471",
+    "wikipedia": "en:Magenta Line (Delhi Metro)"
+  }
+}
+
+  ]
+}

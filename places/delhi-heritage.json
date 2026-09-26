@@ -1,0 +1,504 @@
+{
+  "format": "botanical-network/1",
+  "generated": "2026-09-12",
+  "places": [
+    {
+      "id": "kalibari-mandir",
+      "name": "Kalibari Mandir",
+      "station": "ramakrishna-ashram-marg",
+      "notes": "Mandir Marg cluster with Birla Mandir and NP Boys School",
+      "source": "",
+      "tags": [
+        "temple",
+        "mandir marg"
+      ],
+      "gate": "2",
+      "lat": 28.6342,
+      "lon": 77.1996,
+      "distanceM": 1038
+    },
+    {
+      "id": "np-boys-senior-secondary-school",
+      "name": "NP Boys Senior Secondary School",
+      "station": "ramakrishna-ashram-marg",
+      "notes": "Mandir Marg cluster",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mandir marg"
+      ],
+      "gate": "2",
+      "lat": 28.6358,
+      "lon": 77.2002,
+      "distanceM": 901
+    },
+    {
+      "id": "birla-mandir",
+      "name": "Birla Mandir",
+      "station": "ramakrishna-ashram-marg",
+      "notes": "Laxminarayan Temple; Mandir Marg cluster",
+      "source": "",
+      "tags": [
+        "temple",
+        "mandir marg"
+      ],
+      "gate": "2",
+      "lat": 28.6327,
+      "lon": 77.1992,
+      "distanceM": 1167
+    },
+    {
+      "id": "rashtrapati-bhavan",
+      "name": "Rashtrapati Bhavan",
+      "station": "central-secretariat",
+      "notes": "Book the museum/gardens slot online in advance",
+      "source": "",
+      "tags": [
+        "heritage",
+        "lutyens"
+      ],
+      "gate": "4",
+      "lat": 28.614359,
+      "lon": 77.199589,
+      "distanceM": 1257,
+      "geocoded": "Rashtrapati Bhavan, Kartavya Path, Central Secretariat, Raisina Hill, New Delhi, Delhi, 110004, India"
+    },
+    {
+      "id": "talkatora-garden",
+      "name": "Talkatora Garden",
+      "station": "patel-chowk",
+      "notes": "Mughal-era garden behind the stadium",
+      "source": "",
+      "tags": [
+        "park",
+        "lutyens"
+      ],
+      "gate": "1",
+      "lat": 28.620953,
+      "lon": 77.193831,
+      "distanceM": 1987,
+      "geocoded": "Talkatora Garden, Mother Teresa Crescent, Willingdon Crescent, Raisina Hill, New Delhi, Delhi, 110004, India"
+    },
+    {
+      "id": "malcha-mahal",
+      "name": "Malcha Mahal",
+      "station": "lok-kalyan-marg",
+      "notes": "Tughlaq hunting lodge in the Central Ridge; go in daylight with company",
+      "source": "",
+      "tags": [
+        "heritage",
+        "ridge"
+      ],
+      "gate": "2",
+      "lat": 28.609566,
+      "lon": 77.181105,
+      "distanceM": 3230,
+      "geocoded": "Malcha Mahal, Earth Station Road, Malcha, Central Ridge Reserve Forest, New Delhi, Delhi, 110021, India"
+    },
+    {
+      "id": "bhuli-bhatiyari-ka-mahal",
+      "name": "Bhuli Bhatiyari Ka Mahal",
+      "station": "jhandewalan",
+      "notes": "Tughlaq hunting lodge on the Central Ridge near Karol Bagh",
+      "source": "",
+      "tags": [
+        "heritage",
+        "ridge"
+      ],
+      "gate": "2",
+      "lat": 28.6399,
+      "lon": 77.1976,
+      "distanceM": 538
+    },
+    {
+      "id": "mutiny-memorial",
+      "name": "Mutiny Memorial",
+      "station": "kashmere-gate",
+      "notes": "Ajitgarh; Northern Ridge walk with Ashoka Pillar and Pir Ghaib",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "7",
+      "lat": 28.671362,
+      "lon": 77.210762,
+      "distanceM": 1742,
+      "geocoded": "Ajitgarh, Doctor Karnawal Marg, City & Sadar, Delhi, Old Delhi, Delhi, 110007, India"
+    },
+    {
+      "id": "ashoka-pillar",
+      "name": "Ashoka Pillar",
+      "station": "vishwavidyalaya",
+      "notes": "Northern Ridge walk; next to Hindu Rao Hospital",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "3",
+      "lat": 28.6758,
+      "lon": 77.2118,
+      "distanceM": 2165
+    },
+    {
+      "id": "pir-ghaib",
+      "name": "Pir Ghaib",
+      "station": "civil-lines",
+      "notes": "Inside the Hindu Rao Hospital campus; Northern Ridge walk",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "2",
+      "lat": 28.676295,
+      "lon": 77.213211,
+      "distanceM": 1157,
+      "geocoded": "Pir Ghaib, Doctor Karnawal Marg, City & Sadar, Delhi, Old Delhi, Delhi, 110007, India"
+    },
+    {
+      "id": "chauburji-mosque",
+      "name": "Chauburji Mosque",
+      "station": "civil-lines",
+      "notes": "Northern Ridge walk",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "2",
+      "lat": 28.681561,
+      "lon": 77.215236,
+      "distanceM": 1092,
+      "geocoded": "Chauburji Mosque, Acharya Sushil Marg, Majnu Ka Tila, City & Sadar, Delhi, Old Delhi, Delhi, 110054, India"
+    },
+    {
+      "id": "northern-guard-house",
+      "name": "Northern Guard House",
+      "station": "vishwavidyalaya",
+      "notes": "Northern Ridge walk near Flag Staff Tower (position approximate)",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "3",
+      "lat": 28.6855,
+      "lon": 77.211,
+      "distanceM": 1128
+    },
+    {
+      "id": "hindu-rao-hospital",
+      "name": "Hindu Rao Hospital",
+      "station": "pratap-nagar",
+      "notes": "Hindu Rao's mansion; Northern Ridge walk",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "1",
+      "lat": 28.676402,
+      "lon": 77.212194,
+      "distanceM": 1686,
+      "geocoded": "Hindu Rao Hospital, Doctor Karnawal Marg, City & Sadar, Delhi, Old Delhi, Delhi, 110007, India"
+    },
+    {
+      "id": "baoli",
+      "name": "Baoli",
+      "station": "civil-lines",
+      "notes": "Stepwell on the Kamla Nehru Ridge near Pir Ghaib (position approximate)",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "2",
+      "lat": 28.6761,
+      "lon": 77.21,
+      "distanceM": 1471
+    },
+    {
+      "id": "flag-staff-tower",
+      "name": "Flag Staff Tower",
+      "station": "vishwavidyalaya",
+      "notes": "Northern Ridge walk",
+      "source": "",
+      "tags": [
+        "heritage",
+        "northern ridge"
+      ],
+      "gate": "3",
+      "lat": 28.687968,
+      "lon": 77.218159,
+      "distanceM": 860,
+      "geocoded": "Flagstaff Tower, Rajpur Road, Civil Lines, City & Sadar, Delhi, Old Delhi, Delhi, 110054, India"
+    },
+    {
+      "id": "lal-kot-baoli",
+      "name": "Lal Kot Baoli",
+      "station": "qutab-minar",
+      "notes": "Inside Sanjay Van; Mehrauli cluster",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.527653,
+      "lon": 77.181359,
+      "distanceM": 1712,
+      "geocoded": "Lal Kot, Kalka Das Marg, Lado Sarai, South, Delhi, South Delhi, Delhi, 110030, India"
+    },
+    {
+      "id": "tomb-of-balban",
+      "name": "Tomb of Balban",
+      "station": "qutab-minar",
+      "notes": "Mehrauli Archaeological Park",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.519675,
+      "lon": 77.188786,
+      "distanceM": 783,
+      "geocoded": "Tomb Of Balban, Mehrauli Archeological Park Path, Lado Sarai, South, Delhi, South Delhi, Delhi, 110030, India"
+    },
+    {
+      "id": "jahaz-mahal",
+      "name": "Jahaz Mahal",
+      "station": "qutab-minar",
+      "notes": "By Hauz-i-Shamsi; Mehrauli cluster",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.514372,
+      "lon": 77.178558,
+      "distanceM": 790,
+      "geocoded": "Jahaz Mahal, Zafar Mahal Road, Mehrauli, South, Delhi, South Delhi, Delhi, 110030, India"
+    },
+    {
+      "id": "qila-rai-pithora",
+      "name": "Qila Rai Pithora",
+      "station": "malviya-nagar",
+      "notes": "Rampart remains near Press Enclave Marg",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.51972,
+      "lon": 77.194502,
+      "distanceM": 1450,
+      "geocoded": "Qila Rai Pithora, Lado Sarai, South, Delhi, South Delhi, Delhi, India"
+    },
+    {
+      "id": "neela-hauz-biodiversity-park",
+      "name": "Neela Hauz Biodiversity Park",
+      "station": "qutab-minar",
+      "notes": "Lake and wetland off Aruna Asaf Ali Marg",
+      "source": "",
+      "tags": [
+        "park",
+        "nature"
+      ],
+      "gate": "2",
+      "lat": 28.5343,
+      "lon": 77.181,
+      "distanceM": 2436
+    },
+    {
+      "id": "quli-khan-s-tomb",
+      "name": "Quli Khan's Tomb",
+      "station": "qutab-minar",
+      "notes": "Mehrauli Archaeological Park",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.5232,
+      "lon": 77.1872,
+      "distanceM": 1144
+    },
+    {
+      "id": "sultan-garhi",
+      "name": "Sultan Garhi",
+      "station": "chhatarpur",
+      "notes": "Oldest Islamic tomb in Delhi; Vasant Kunj side (position approximate)",
+      "source": "",
+      "tags": [
+        "heritage"
+      ],
+      "gate": "2",
+      "lat": 28.514,
+      "lon": 77.1461,
+      "distanceM": 2930
+    },
+    {
+      "id": "tughlaqabad-fort",
+      "name": "Tughlaqabad Fort",
+      "station": "tughlakabad",
+      "notes": "Tughlaqabad cluster with Adilabad and the tomb",
+      "source": "",
+      "tags": [
+        "heritage",
+        "tughlaqabad"
+      ],
+      "gate": "1",
+      "lat": 28.511217,
+      "lon": 77.2623,
+      "distanceM": 3741,
+      "geocoded": "Path to Tughlaqabad Fort, Tughlakabad, Central, Delhi, South East Delhi, Delhi, 110080, India"
+    },
+    {
+      "id": "nai-ka-kot",
+      "name": "Nai Ka Kot",
+      "station": "tughlakabad",
+      "notes": "Ruined outwork south of Adilabad",
+      "source": "",
+      "tags": [
+        "heritage",
+        "tughlaqabad"
+      ],
+      "gate": "1",
+      "lat": 28.502258,
+      "lon": 77.279302,
+      "distanceM": 1948,
+      "geocoded": "Nai Ka Kot, Mehrauli Badarpur Road, Vishwakarma Colony, Tughlakabad, Central, Delhi, South East Delhi, Delhi, 121009, India"
+    },
+    {
+      "id": "asola-bhatti-wildlife-sanctuary",
+      "name": "Asola Bhatti Wildlife Sanctuary",
+      "station": "tughlakabad",
+      "notes": "Guided walks from the Asola gate; check timings",
+      "source": "",
+      "tags": [
+        "park",
+        "nature"
+      ],
+      "gate": "1",
+      "lat": 28.454722,
+      "lon": 77.229597,
+      "distanceM": 8625,
+      "geocoded": "Asola-Bhatti Wildlife Sanctuary, Delhi, South Delhi, Delhi, India"
+    },
+    {
+      "id": "tilpath-valley-biodiversity-park",
+      "name": "Tilpath Valley Biodiversity Park",
+      "station": "saket",
+      "notes": "Near Sainik Farm; mornings are best",
+      "source": "",
+      "tags": [
+        "park",
+        "nature"
+      ],
+      "gate": "2",
+      "lat": 28.488331,
+      "lon": 77.21264,
+      "distanceM": 3768,
+      "geocoded": "Tilpath Valley Biodiversity Park, Neb Sarai, South, Delhi, South Delhi, Delhi, India"
+    },
+    {
+      "id": "metcalfe-folly",
+      "name": "Metcalfe Folly",
+      "station": "qutab-minar",
+      "notes": "Dilkusha and the folly on the hill; Mehrauli cluster",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.5235,
+      "lon": 77.1908,
+      "distanceM": 1249
+    },
+    {
+      "id": "tomb-of-ghiyasuddin-tughlaq",
+      "name": "Tomb of Ghiyasuddin Tughlaq",
+      "station": "tughlakabad",
+      "notes": "Across the causeway from the fort",
+      "source": "",
+      "tags": [
+        "heritage",
+        "tughlaqabad"
+      ],
+      "gate": "1",
+      "lat": 28.5111,
+      "lon": 77.2606,
+      "distanceM": 3899
+    },
+    {
+      "id": "rajon-ki-baoli",
+      "name": "Rajon Ki Baoli",
+      "station": "qutab-minar",
+      "notes": "Mehrauli Archaeological Park",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.520313,
+      "lon": 77.183363,
+      "distanceM": 875,
+      "geocoded": "Rajon ki Baoli, Mehrauli Archeological Park Path, Mehrauli, South, Delhi, South Delhi, Delhi, 110030, India"
+    },
+    {
+      "id": "jamali-kamali-mosque-tomb",
+      "name": "Jamali Kamali Mosque & Tomb",
+      "station": "qutab-minar",
+      "notes": "Mehrauli Archaeological Park",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.519401,
+      "lon": 77.187165,
+      "distanceM": 723,
+      "geocoded": "Jamali Kamali Mosque, Mehrauli Archeological Park Path, Lado Sarai, South, Delhi, South Delhi, Delhi, 110030, India"
+    },
+    {
+      "id": "azim-khan-tomb",
+      "name": "Azim Khan Tomb",
+      "station": "qutab-minar",
+      "notes": "Hilltop tomb near Ahinsa Sthal",
+      "source": "",
+      "tags": [
+        "heritage",
+        "mehrauli"
+      ],
+      "gate": "2",
+      "lat": 28.5214,
+      "lon": 77.1935,
+      "distanceM": 1166
+    },
+    {
+      "id": "adilabad-fort",
+      "name": "Adilabad Fort",
+      "station": "tughlakabad",
+      "notes": "Tughlaqabad cluster",
+      "source": "",
+      "tags": [
+        "heritage",
+        "tughlaqabad"
+      ],
+      "gate": "1",
+      "lat": 28.506027,
+      "lon": 77.268093,
+      "distanceM": 3071,
+      "geocoded": "Adilabad Fort, Mehrauli Badarpur Road, Tughlakabad, Central, Delhi, South East Delhi, Delhi, 110080, India"
+    }
+  ]
+}

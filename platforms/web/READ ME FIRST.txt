@@ -1,0 +1,44 @@
+Botanical Network 0.1.0 (browser version)  -  Delhi Metro map with your saved places
+=====================================================================================
+
+This is the full app running as a web page, so it works on a Mac (or any
+computer) with nothing to install.
+
+WHAT IS IN THIS FOLDER
+
+  Open Botanical Network.html             double-click this to start the app.
+  app/                                    the app itself; keep it next to the
+                                          file above.
+  places/delhi-all-places.json            every place from the sender's own map,
+                                          with exit gates and categories. Drop
+                                          this one file onto the map first.
+  places/                                 the smaller lists it was built from,
+                                          plus a tiny sample file.
+
+START
+
+  1. Unzip the file you were sent (double-click it) and move the folder
+     somewhere permanent, such as Documents.
+  2. Double-click "Open Botanical Network.html". It opens in your browser.
+     Google Chrome works best: on a Mac, Control-click the file and choose
+     Open With > Google Chrome. In Safari everything works, but pinching the
+     trackpad does not zoom; use two-finger scrolling, the slider at the
+     bottom right, or the + and - keys instead.
+
+FIRST RUN
+
+  - Drop places/delhi-all-places.json onto the map, or press "Import places..."
+    and pick it. A checklist shows what came in. (Importing the smaller lists
+    afterwards just reports those places as "already exists".)
+  - Hover a station to see the places saved there; click "Start here" on one
+    station and "End here" on another to plan a journey.
+  - Press the "i" button next to Import to copy a prompt you can paste into
+    any AI chat with your own list of places; save its reply as a .json file
+    and import it.
+
+YOUR PLACES
+
+  Places are saved inside the browser you use, on this computer only. Always
+  open the app in the same browser. Clearing that browser's history or site
+  data erases them, so press "Export..." now and then to keep a copy (it
+  downloads my-places.json, which you can import again at any time).
