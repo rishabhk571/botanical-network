@@ -1,0 +1,246 @@
+{
+  "format": "botanical-network/1",
+  "places": [
+    {
+      "name": "The ChocoLand",
+      "station": "Govind Puri",
+      "lat": 28.5444,
+      "lon": 77.2643,
+      "category": "food",
+      "tags": ["sweets", "bakery"],
+      "notes": "Located in Govindpuri Gali No. 1 near the Gurudwara."
+    },
+    {
+      "name": "Kasa Foods",
+      "station": "Nehru Enclave",
+      "lat": 28.5397,
+      "lon": 77.2530,
+      "category": "food",
+      "tags": ["momos", "casual"],
+      "notes": "Try the momos; located in South Park Apartment-Kalkaji."
+    },
+    {
+      "name": "Ovenkissed Cat Cafe",
+      "station": "Paschim Vihar West",
+      "lat": 28.6600,
+      "lon": 77.0900,
+      "category": "food",
+      "tags": ["cafe", "cats"],
+      "notes": "Play with cats while having coffee, though verify operating status before visiting."
+    },
+    {
+      "name": "Book Nest, Sunder Nursery",
+      "station": "JLN Stadium",
+      "lat": 28.5925,
+      "lon": 77.2460,
+      "category": "culture",
+      "tags": ["books", "kids", "park"],
+      "notes": "A reading room for children inside Sunder Nursery; great for weekends."
+    },
+    {
+      "name": "Azim Khan Tomb",
+      "station": "Qutub Minar",
+      "lat": 28.5218,
+      "lon": 77.1904,
+      "category": "monument",
+      "tags": ["mughal", "tomb"],
+      "notes": "Perched on a hill; great sunset views and a hidden gem in Mehrauli."
+    },
+    {
+      "name": "Vishwa Shanti Stupa",
+      "station": "Sarai Kale Khan - Nizamuddin",
+      "lat": 28.5940,
+      "lon": 77.2640,
+      "category": "monument",
+      "tags": ["buddhist", "peace"],
+      "notes": "White domed Buddhist monument inside Millennium Indraprastha Park, on the banks of the Yamuna."
+    },
+    {
+      "name": "Lodhi Garden",
+      "station": "Jor Bagh",
+      "lat": 28.5933,
+      "lon": 77.2197,
+      "category": "nature",
+      "tags": ["park", "heritage"],
+      "notes": "Best for early morning walks among historical tombs."
+    },
+    {
+      "name": "A.N. Jha Deer Park",
+      "station": "Hauz Khas",
+      "lat": 28.5606,
+      "lon": 77.1925,
+      "category": "nature",
+      "tags": ["wildlife", "lake"],
+      "notes": "Spot deer and ducks near a beautiful lake; great for evening strolls."
+    },
+    {
+      "name": "Nehru Park",
+      "station": "Sarojini Nagar",
+      "lat": 28.5833,
+      "lon": 77.1917,
+      "category": "nature",
+      "tags": ["park", "picnic"],
+      "notes": "Lush green spaces perfect for winter picnics and morning runs."
+    },
+    {
+      "name": "The Garden of Five Senses",
+      "station": "Saket",
+      "lat": 28.5135,
+      "lon": 77.1983,
+      "category": "nature",
+      "tags": ["art", "nature"],
+      "notes": "Explore the themed areas; frequently hosts food and cultural festivals."
+    },
+    {
+      "name": "Agrasen Ki Baoli",
+      "station": "Barakhamba Road",
+      "lat": 28.6259,
+      "lon": 77.2250,
+      "category": "monument",
+      "tags": ["stepwell", "heritage"],
+      "notes": "Ancient stepwell in the heart of Delhi; great for photography."
+    },
+    {
+      "name": "Lodhi Art District",
+      "station": "JLN Stadium",
+      "lat": 28.5847,
+      "lon": 77.2223,
+      "category": "culture",
+      "tags": ["streetart", "murals"],
+      "notes": "India's first open-air public art district with spectacular painted facades."
+    },
+    {
+      "name": "Jama Masjid",
+      "station": "Jama Masjid",
+      "lat": 28.6507,
+      "lon": 77.2334,
+      "category": "worship",
+      "tags": ["mosque", "mughal"],
+      "notes": "Climb the minaret for a sweeping view of Old Delhi; dress modestly."
+    },
+    {
+      "name": "India Gate",
+      "station": "Central Secretariat",
+      "lat": 28.6129,
+      "lon": 77.2295,
+      "category": "monument",
+      "tags": ["memorial", "kartavyapath"],
+      "notes": "Best visited in the evening when illuminated; enjoy a stroll on Kartavya Path."
+    },
+    {
+      "name": "Swaminarayan Akshardham",
+      "station": "Akshardham",
+      "lat": 28.6127,
+      "lon": 77.2773,
+      "category": "worship",
+      "tags": ["temple", "spiritual"],
+      "notes": "Book the evening water show; mobiles and bags are not allowed inside."
+    },
+    {
+      "name": "Delhi Public Library",
+      "station": "Chandni Chowk",
+      "lat": 28.6575,
+      "lon": 77.2285,
+      "category": "culture",
+      "tags": ["library", "books"],
+      "notes": "The main branch is located opposite the Old Delhi Railway Station."
+    },
+    {
+      "name": "Central Park",
+      "station": "Rajiv Chowk",
+      "lat": 28.6328,
+      "lon": 77.2197,
+      "category": "nature",
+      "tags": ["park", "connaughtplace"],
+      "notes": "Located above the metro station; features a giant national flag."
+    },
+    {
+      "name": "Kunzum Travel Café",
+      "station": "Hauz Khas",
+      "lat": 28.5539,
+      "lon": 77.1942,
+      "category": "food",
+      "tags": ["cafe", "travel"],
+      "notes": "Pay what you like for tea/coffee; a great spot to meet fellow travelers."
+    },
+    {
+      "name": "Pradhanmantri Sangrahalaya",
+      "station": "Lok Kalyan Marg",
+      "lat": 28.6040,
+      "lon": 77.1990,
+      "category": "culture",
+      "tags": ["museum", "history"],
+      "notes": "Explore modern Indian history; formerly known as Nehru Memorial Museum and Library."
+    },
+    {
+      "name": "Ai-CHA Ice Cream & Tea",
+      "station": "Moolchand",
+      "lat": 28.5615,
+      "lon": 77.2431,
+      "category": "food",
+      "tags": ["icecream", "boba"],
+      "notes": "Try their boba tea, sundaes, and soft serves in Amar Colony."
+    },
+    {
+      "name": "The Big Tree Cafe",
+      "station": "Sector 54 Chowk",
+      "lat": 28.4375,
+      "lon": 77.1045,
+      "category": "food",
+      "tags": ["cafe", "ambience"],
+      "notes": "Beautiful outdoor seating; great for dinner dates."
+    },
+    {
+      "name": "Nehru Planetarium",
+      "station": "Lok Kalyan Marg",
+      "lat": 28.6042,
+      "lon": 77.1979,
+      "category": "culture",
+      "tags": ["science", "space"],
+      "notes": "Check show timings in advance for the sky theatre."
+    },
+    {
+      "name": "CodeBreak 60",
+      "station": "Vishwavidyalaya",
+      "category": "activity",
+      "tags": ["escape", "games"],
+      "notes": "Fun escape room experience in Kamla Nagar; book with a group."
+    },
+    {
+      "name": "Buddha Jayanti Park",
+      "station": "Durgabai Deshmukh South Campus",
+      "lat": 28.6023,
+      "lon": 77.1729,
+      "category": "nature",
+      "tags": ["park", "buddha"],
+      "notes": "Features a sapling of the original Bodhi tree; very peaceful."
+    },
+    {
+      "name": "Harajuku Tokyo Cafe",
+      "station": "Malviya Nagar",
+      "lat": 28.5285,
+      "lon": 77.2192,
+      "category": "food",
+      "tags": ["japanese", "desserts"],
+      "notes": "Try the jiggly pancakes and Japanese street food."
+    },
+    {
+      "name": "Aravalli Biodiversity Park",
+      "station": "Guru Dronacharya",
+      "lat": 28.4842,
+      "lon": 77.1009,
+      "category": "nature",
+      "tags": ["biodiversity", "trails"],
+      "notes": "Great for nature walks and bird watching early in the morning."
+    },
+    {
+      "name": "Millennium Indraprastha Park",
+      "station": "Sarai Kale Khan - Nizamuddin",
+      "lat": 28.5975,
+      "lon": 77.2625,
+      "category": "nature",
+      "tags": ["park", "peaceful"],
+      "notes": "Vast green space along the Ring Road featuring the Vishwa Shanti Stupa."
+    }
+  ]
+}
